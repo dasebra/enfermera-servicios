@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 576" width="480" height="576">
+  <!-- Marcador de posición: reemplazar por una foto real de Roxana (ver README). -->
+  <rect width="480" height="576" fill="#DCEBF7"/>
+  <circle cx="240" cy="236" r="176" fill="#FFFFFF" opacity=".6"/>
+  <circle cx="240" cy="236" r="200" fill="none" stroke="#8EC5E8" stroke-width="2" stroke-dasharray="6 10"/>
+  <path d="M146 250c0-62 42-108 94-108s94 46 94 108v92c0 12-10 22-22 22H168c-12 0-22-10-22-22z" fill="#12284C"/>
+  <path d="M52 576c0-118 84-186 188-186s188 68 188 186z" fill="#12284C"/>
+  <path d="M208 322h64v62c0 18-14 32-32 32s-32-14-32-32z" fill="#8EC5E8"/>
+  <path d="M190 398l50 64 50-64" fill="none" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="240" cy="246" rx="74" ry="82" fill="#8EC5E8"/>
+  <path d="M166 236c6-48 36-76 74-76s68 28 74 76c-26-10-50-30-62-52-14 26-44 44-86 52z" fill="#12284C"/>
+  <rect x="150" y="508" width="180" height="36" rx="18" fill="#FFFFFF"/>
+  <text x="240" y="532" text-anchor="middle" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="700" fill="#12284C">Foto de Roxana</text>
+</svg>

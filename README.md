@@ -18,7 +18,7 @@ assets/
   css/styles.css            Estilos compartidos. Colores y tipografías en :root
   js/config.js              Número de WhatsApp y mensajes (editar aquí)
   js/main.js                Arma los enlaces de WhatsApp y la aparición al hacer scroll
-  fonts/                    Fraunces (títulos) y Nunito (texto), alojadas en el sitio
+  fonts/                    Montserrat (títulos y texto), alojada en el sitio
   img/                      Foto de muestra, imágenes para redes sociales e íconos
 referencias/                Capturas de referencias visuales (no se enlazan desde el sitio)
 licencias/                  Licencias de las fuentes y los íconos
@@ -78,13 +78,13 @@ Todo está en el bloque `:root` al inicio de `assets/css/styles.css`:
 --sky-accent: #8ec5e8;  /* celeste vivo: solo líneas y subrayados */
 --ink: #1b2a41;         /* texto */
 --whatsapp: #25d366;    /* botón flotante */
---font-title: "Fraunces", ...;
---font-body: "Nunito", ...;
+--font-title: "Montserrat", ...;
+--font-body: "Montserrat", ...;
 ```
 
 Si cambias un color, revisa que el texto siga teniendo buen contraste (mínimo AA) con https://webaim.org/resources/contrastchecker/.
 
-Para cambiar de tipografía, reemplaza los archivos `.woff2` de `assets/fonts/`, actualiza los bloques `@font-face` del CSS y las líneas `<link rel="preload">` del `<head>` de cada página.
+Para cambiar de tipografía, reemplaza el archivo `.woff2` de `assets/fonts/`, actualiza el bloque `@font-face` del CSS y la línea `<link rel="preload">` del `<head>` de cada página.
 
 ## Cambiar el número o los mensajes de WhatsApp
 
@@ -177,7 +177,7 @@ La carpeta `referencias/` es para guardar capturas del pin de Pinterest y de enf
 
 ## Créditos
 
-- Tipografías [Fraunces](https://github.com/undercasetype/Fraunces) y [Nunito](https://github.com/googlefonts/nunito), licencia SIL Open Font License 1.1.
+- Tipografía [Montserrat](https://github.com/JulietaUla/Montserrat), licencia SIL Open Font License 1.1.
 - Íconos de [Lucide](https://lucide.dev), licencia ISC.
 - Ícono de WhatsApp de [Simple Icons](https://simpleicons.org), CC0. WhatsApp es una marca de Meta; se usa solo para identificar el canal de contacto.
 

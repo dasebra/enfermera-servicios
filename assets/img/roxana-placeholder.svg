@@ -10,5 +10,5 @@
   <ellipse cx="240" cy="246" rx="74" ry="82" fill="#8EC5E8"/>
   <path d="M166 236c6-48 36-76 74-76s68 28 74 76c-26-10-50-30-62-52-14 26-44 44-86 52z" fill="#12284C"/>
   <rect x="150" y="508" width="180" height="36" rx="18" fill="#FFFFFF"/>
-  <text x="240" y="532" text-anchor="middle" font-family="Nunito, Arial, sans-serif" font-size="17" font-weight="700" fill="#12284C">Foto de Roxana</text>
+  <text x="240" y="532" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="17" font-weight="700" fill="#12284C">Foto de Roxana</text>
 </svg>

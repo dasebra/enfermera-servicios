@@ -9,17 +9,9 @@
 /* ---------- Fuentes (alojadas en el propio sitio, sin servicios externos) -- */
 
 @font-face {
-  font-family: "Fraunces";
-  src: url("../fonts/fraunces-soft.woff2") format("woff2");
+  font-family: "Montserrat";
+  src: url("../fonts/montserrat.woff2") format("woff2");
   font-weight: 100 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Nunito";
-  src: url("../fonts/nunito.woff2") format("woff2");
-  font-weight: 200 1000;
   font-style: normal;
   font-display: swap;
 }
@@ -38,8 +30,8 @@
   --whatsapp: #25d366;    /* única excepción: botón flotante de WhatsApp */
 
   /* Tipografías */
-  --font-title: "Fraunces", "Lora", Georgia, "Times New Roman", serif;
-  --font-body: "Nunito", "Inter", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-title: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  --font-body: "Montserrat", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
 
   /* Formas */
   --radius-card: 20px;
@@ -78,7 +70,7 @@ body {
   margin: 0;
   font-family: var(--font-body);
   font-size: 1.0625rem; /* 17 px */
-  line-height: 1.65;
+  line-height: 1.7;
   color: var(--ink);
   background: var(--white);
   -webkit-font-smoothing: antialiased;
@@ -105,24 +97,23 @@ h2,
 h3 {
   margin: 0 0 0.5em;
   font-family: var(--font-title);
-  font-weight: 600;
-  font-variation-settings: "SOFT" 100;
-  line-height: 1.15;
-  letter-spacing: -0.01em;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
   color: var(--navy);
   text-wrap: balance;
 }
 
 h1 {
-  font-size: clamp(2rem, 1.35rem + 3.2vw, 3.4rem);
+  font-size: clamp(1.85rem, 1.3rem + 2.8vw, 3.1rem);
 }
 
 h2 {
-  font-size: clamp(1.7rem, 1.25rem + 2vw, 2.5rem);
+  font-size: clamp(1.55rem, 1.2rem + 1.7vw, 2.25rem);
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 p {
@@ -317,7 +308,6 @@ a:hover {
   font-family: var(--font-title);
   font-size: 1.25rem;
   font-weight: 600;
-  font-variation-settings: "SOFT" 100;
   color: var(--navy);
   text-decoration: none;
 }
@@ -648,7 +638,6 @@ a:hover {
   font-family: var(--font-title);
   font-size: clamp(1.35rem, 1.1rem + 1.2vw, 1.9rem);
   font-weight: 500;
-  font-variation-settings: "SOFT" 100;
   line-height: 1.35;
   color: var(--navy);
   text-align: center;
@@ -840,7 +829,6 @@ a:hover {
   font-family: var(--font-title);
   font-size: 1.4rem;
   font-weight: 600;
-  font-variation-settings: "SOFT" 100;
   color: var(--navy);
 }
 
@@ -989,7 +977,6 @@ a:hover {
   font-family: var(--font-title);
   font-size: 1.25rem;
   font-weight: 600;
-  font-variation-settings: "SOFT" 100;
   color: var(--white);
 }
 

@@ -182,3 +182,13 @@ La carpeta `referencias/` es para guardar capturas del pin de Pinterest y de enf
 - Ícono de WhatsApp de [Simple Icons](https://simpleicons.org), CC0. WhatsApp es una marca de Meta; se usa solo para identificar el canal de contacto.
 
 Los textos de las licencias están en `licencias/`.
+
+## Skill de diseño para Claude Code
+
+El proyecto trae instalada la skill [ui-ux-pro-max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) (licencia MIT) en `.claude/skills/ui-ux-pro-max/`. Claude Code la carga sola al abrir el proyecto. Sus scripts necesitan Python 3 y solo buscan en archivos de datos locales: no se conectan a internet. Para usarla a mano desde la raíz del proyecto:
+
+```bash
+python3 .claude/skills/ui-ux-pro-max/scripts/search.py "contraste botón accesible" --domain ux
+```
+
+Sus recomendaciones son sugerencias: la paleta y la tipografía de este sitio ya están definidas por Roxana y no cambian por lo que diga la skill.

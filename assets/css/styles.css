@@ -64,6 +64,8 @@ html {
   text-size-adjust: 100%;
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-h) + 16px);
+  /* Que el botón flotante de WhatsApp no tape lo que tiene el foco del teclado */
+  scroll-padding-bottom: 96px;
 }
 
 body {
@@ -965,6 +967,13 @@ a:hover {
 
 .site-footer a {
   color: var(--white);
+}
+
+/* Zona táctil más alta para los enlaces del pie */
+.footer__list a {
+  display: inline-block;
+  padding-block: 8px;
+  margin-block: -8px;
 }
 
 .footer__grid {

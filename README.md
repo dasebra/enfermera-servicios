@@ -49,8 +49,10 @@ grep -rn "por confirmar" --include=*.html .
 Pendientes a la fecha:
 
 - **Ambas páginas:** dominio final, fotos de Roxana y el texto de "Sobre mí".
-- **Enfermería a domicilio:** precios, días y horarios, años de experiencia, número de registro en la Superintendencia de Salud, si se necesita receta médica y reseñas.
-- **Examen de título:** el contenido de "Qué incluye la preparación" (es un borrador), carreras incluidas, duración, horarios y precios de las sesiones, y la frase "Servicio independiente, sin vínculo oficial con la Universidad de Aconcagua".
+- **Enfermería a domicilio:** precios, días y horarios, años de experiencia, número de registro en la Superintendencia de Salud, si se necesita receta médica y las tres reseñas.
+- **Examen de título:** el contenido de "Qué incluye la preparación" (es un borrador), carreras incluidas, duración, horarios y precios de las sesiones, la frase "Servicio independiente, sin vínculo oficial con la Universidad de Aconcagua" y los tres testimonios.
+
+**Reseñas y testimonios:** cada página trae una sección con tres tarjetas vacías. Pega solo opiniones reales, con permiso de la persona, y firma con nombre o iniciales y comuna (o carrera). En las de pacientes no incluyas datos de salud que identifiquen a nadie. Si al publicar no hay reseñas, borra la sección completa (está marcada con el comentario `<!-- Reseñas -->`).
 
 Cuando tengas un dato, reemplaza la etiqueta completa. Por ejemplo, esto:
 

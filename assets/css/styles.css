@@ -597,6 +597,36 @@ a:hover {
   }
 }
 
+/* Reseñas */
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.testimonial__quote {
+  margin: 0;
+  flex: 1;
+  font-size: 1.0625rem;
+  color: var(--ink);
+}
+
+.testimonial__quote p {
+  margin: 0;
+}
+
+.testimonial__who {
+  margin: 0;
+  font-weight: 700;
+  color: var(--navy);
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .cards--3 .testimonial {
+    display: flex;
+  }
+}
+
 /* ---------- Puntos destacados (franja celeste) --------------------------- */
 
 .features {
